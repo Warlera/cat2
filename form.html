@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="css\form.css">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="icon" href="favicon.ico">
+</head> 
+<body>
+    <div class="main">
+     <header>
+        <div class="container">
+            <div class="header margin">
+                <div class="logo">
+                    <a href="index.html"><img src="img\logo-desktop.png" alt="logo"></a>
+                    <a href="index.html"><img src="img\logo-mobile.png" alt="logo"></a>
+                </div>
+                <div class="nav active">
+                    <a class="nav-link" href="index.html">главная</a>
+                    <a class="nav-link" href="catalog.html">Каталог продукции</a>
+                    <a class="nav-link" href="">подбор программы</a>
+                </div>
+                <div class="header_burger">
+                    <span></span>
+                 </div>
+            </div>
+        </div>
+     </header>
+     <main>
+        <div class="container">
+            <div class="work_head">
+                <p>Подбор программы</p>
+            </div>
+            <div class="text head-text">Заполните анкету, и мы подберем
+                программу питания для вашего кота</div>
+            <div class="form">
+                <div class="form_block">
+                    <label class="form_text">ИМЯ:*
+                    <input type="text" id="name" placeholder="Барсик"></label>
+                    <label class="form_text">Вес&nbsp(кг):*
+                    <input type="text" id="kg"></label>
+                    <label class="form_text">Возраст&nbsp(лет):
+                    <input type="text" id="old"></label>
+                </div>
+                <div class="form_block">
+                        <input class="radio" type="radio" id="target+" name="target">
+                        <label for="target+">похудение</label>
+                        <input class="radio" type="radio" id="target-" name="target">
+                        <label for="target-">Набор массы</label>
+                        <input class="radio" type="radio" id="help" name="target">
+                        <label for="help">Не знаю (Нужен ваш совет)</label>
+                </div>
+            </div>  
+        </div>
+        <div class="form_h2">Контактные&nbspданные (владельца&nbspкота)</div>
+        <div class="container">
+            <div class="form">
+                <div class="form_block">
+                    <label class="form_text">E-&nbspmail:*
+                    <input type="text" id="mail" placeholder="кuklachev@gmail.com"></label>
+                </div>
+                <div class="form_block">
+                    <label class="form_text">Телефон:*
+                    <input type="text" id="phone" placeholder="8 (960) 900-60-90"></label>
+                </div>
+            </div>
+        </div> 
+        <div class="form_h2">Комментарий</div>
+        <div class="container">
+                <textarea class="fitback_form" placeholder="Расскажите обо всех повадках кота"></textarea>
+        </div> 
+        <div class="form_h2">Дополнительно</div>
+        <div class="container">
+            <div class="form_checkbox">
+                <div class="checkbox">
+                    <input class="check" type="checkbox" id="sweetener" name="sweetener">
+                    <label for="sweetener">сахарозаменитель</label>
+                </div>
+                <div class="checkbox">
+                    <input class="check" type="checkbox" id="water" name="water">
+                    <label for="water">питьевая вода</label>
+                </div>
+                <div class="checkbox">
+                    <input class="check" type="checkbox" id="milk" name="milk">
+                    <label for="milk">молоко</label>
+                </div>
+                <div class="checkbox">
+                    <input class="check" type="checkbox" id="vitamins" name="vitamins">
+                    <label for="vitamins">витамины</label>
+                </div>
+            </div>
+            <div class="form form_button">
+                <a class="button form_block" href="">отправить заявку</a>
+                <p>* — Обязательные поля</p>
+            </div>
+        </div> 
+     </main>
+     <footer>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d840.3108580840387!2d30.322423454946982!3d59.938658155802855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1651686639220!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="block">
+            <div class="footer">
+            <div>
+                <img src="img/footer/footer-logo.png">
+            </div>
+            <div class="footer_icon">
+                <a href="#"><img src="img/footer/icon_vkontakte.png"></a>
+                <a href="#"><img src="img/footer/icon_instagram.png"></a>
+                <a href="#"><img src="img/footer/icon_facebook.png"></a>
+            </div>
+            <div class="html_academy">
+                <img src="img/footer/HTML Academy.png">
+                <img src="img/footer/html academy1.png">
+            </div>
+        </div><!--footer-->
+        </div><!--block-->
+     </footer>
+    </div>
+    <script>
+        
+    </script>
+ </body>
+</html>

@@ -1,0 +1,146 @@
+$primary-black: #1F1F1F;
+$white: #FFFFFF;
+$black: #000000;
+$bg: #F4F4F4;
+$main-green: #68B738;
+$special-grey:#CDCDCD;
+
+main {
+    margin-top: 187px;
+}
+.nav-link {
+    color: #000000;
+}
+.nav-link:hover {
+    border-bottom: 2px solid $black;
+    padding-bottom: 5px;
+}
+.work_head {
+    margin-bottom: 200px;
+}
+.carts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.cart {
+    background: $bg;
+    text-align: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 245px;
+    min-height: 431px;
+    margin-bottom: 142px;
+}
+.cart_mini {
+    position: absolute;
+    left: 43px;
+    top: -52px;
+}
+.cart_maxi {
+    position: absolute;
+    left: 39px;
+    top: -80px;
+}
+.cart_head {
+    margin-top: 162px;
+    text-transform: uppercase;
+    font-size: 20px;
+    max-width: 145px;
+    align-items: center;
+}
+.table {
+    margin-bottom: 33px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $special-grey;
+    min-width: 168px;
+}
+.cart_button {
+    max-width: 168px;
+    margin-bottom: 40px;
+}
+.cart_plus {
+    background: $white;
+    border: 1px solid $special-grey;
+    min-width: 242px;
+    min-height: 429px;
+}
+.cart_plus_button {
+    max-width: 168px;
+    margin-bottom: 40px;
+    background: $bg;
+}
+.plus {
+    top: 51px;
+    left: 92px;
+}
+.cart_head_plus {
+    margin-bottom: 23px;
+}
+.table_plus {
+    max-width: 167px;
+    margin-bottom: 132px;
+}
+.catalog_dop {
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+.catalog_dop::before,
+.catalog_dop::after {
+    content: '';
+    display: block;
+    height: 2px;
+    background: $main-green;
+}
+.catalog_dop::before {
+    width: 70px;
+    margin-right: 40px;
+}
+.catalog_dop::after {
+    width: 100%;
+    margin-left: 35px;
+}
+.gift {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 86px;
+}
+.table_row {
+    display: flex;
+    width: 895px;
+    justify-content: space-between;
+    border-bottom: 1px solid $special-grey;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.table_button {
+    padding: 7px 26px;
+}
+.table_row p {
+    display: block;
+    width: 150px;
+    text-align: end;
+}
+.table_row p:nth-child(1){
+    text-align: start;
+    text-transform: uppercase;
+}
+.img_gift {
+    background: url("../img/catalog/gift-photo-desktop.png");
+    background-repeat: no-repeat;
+    min-width: 245px;
+    min-height: 299px;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
